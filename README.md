@@ -1,3 +1,4 @@
+```
 #include<stdio.h>
 
 int power(int base, int exponent)
@@ -22,3 +23,4 @@ scanf("%d", &b);
 re = power(a,b);
 printf("\n%d to the power %d is %d\n", a,b,re);
 }
+```
