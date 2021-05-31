@@ -1,26 +1,17 @@
-```
-#include<stdio.h>
+# Exponent calculator in C
 
-int power(int base, int exponent)
-{
-	int i, ans;
-	ans = 1;
-	for (i = 0; i < exponent; i++)
-	{
-		ans = ans*base;
-	}
-	return (ans);
-}
+Just a dumb exponent calculator in C
 
-void main()
-{
+---
 
-int a, b,re;
-printf("Enter base: ");
-scanf("%d", &a);
-printf("\nEnter exponent: ");
-scanf("%d", &b);
-re = power(a,b);
-printf("\n%d to the power %d is %d\n", a,b,re);
-}
-```
+# Commands if you want to use
+
+### First clone it
+`git clone https://github.com/Aksheet10/Exponent-Calculator.git`
+
+Then go into that directory: `cd Exponent-Calculator`
+
+Compile the file
+`gcc expocalc.c -o expocalc`
+
+Now run it `./expocalc`
